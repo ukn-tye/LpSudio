@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  background-image: url("./imgs/lines-01.png"); /* The image used */
+  height: 800px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin: 0;
+}
+
+.bg-color-main {
+  background-color: #191919;
+}
+
+.grey-medium {
+  color: #fff;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.spaceG {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+#dropdown-menu {
+  background-color: #333333;
+  border: transparent;
+  width: 50px;
+  
+}
+
+#dropdown-item {
+  color: #fff;
+}
+
+#dropdown {
+  border: transparent;
+  display: flex;
+  content: none;
+ }
+
+
+#dropdown::after {
+  content: none;
+  border: transparent;
+}
