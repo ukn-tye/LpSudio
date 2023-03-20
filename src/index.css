@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Doppelganger";
+  src: url(./fonts/Doppelganger.otf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap');
 
 * {
@@ -9,8 +14,14 @@
   padding: 0;
 }
 
+:root {
+  --dark-main: #363636;
+  --light-main: #f9f9f9;
+  --white: #fff;
+}
+
 .hero-image {
-  background-image: url("./imgs/lines-01.png"); /* The image used */
+  background-image: url("./imgs/backimg-01.png"); /* The image used */
   height: 800px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -34,25 +45,76 @@
   font-family: 'Space Grotesk', sans-serif;
 }
 
-#dropdown-menu {
-  background-color: #333333;
-  border: transparent;
-  width: 50px;
-  
+#nav-links a {
+  color: var(--dark-main);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
-#dropdown-item {
-  color: #fff;
+#nav-links a:hover {
+  color: black;
+  font-weight: 600;
 }
 
-#dropdown {
-  border: transparent;
+#spot-1 p {
+  width: 35%;
+  font-family: "Space Grotesk";
+}
+
+.border-1 {
+  border: 1.5px solid var(--dark-main);
+  color: var(--dark-main);
+  width: 200px;
+  font-weight: 500;
+}
+
+.border-1:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: var(--dark-main);
+}
+
+.home__scroll {
   display: flex;
-  content: none;
- }
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+}
 
+.wheel {
+  animation: scroll 2s ease infinite;
+}
 
-#dropdown::after {
-  content: none;
-  border: transparent;
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(.5rem);
+  }
+}
+
+.arrow {
+  animation: scroll 2s ease infinite;
+}
+
+#scroll-arrow {
+  margin-left: 84.3rem;
+}
+
+#spin {
+  position: relative;
+  right: 160px;
+  top: 91px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
 }

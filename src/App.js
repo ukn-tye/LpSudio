@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="">
-      <div className="hero-image">
-      <Navbar />
+    <div className="hero-image">
+      <div className="">
+        <Navbar />
+        <Home />
       </div>
-      <Home />
     </div>
   );
 }

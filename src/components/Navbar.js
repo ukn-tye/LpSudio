@@ -1,7 +1,4 @@
-import limeLogo from '../imgs/lime-logo.png';
-import Dropdown from 'react-bootstrap/Dropdown';
-import menuIcon from '../imgs/lime-menu.png';
-import boxIcon from "boxicons";
+import logo from "../imgs/gray-logo.png";
 
 
 
@@ -9,24 +6,16 @@ import boxIcon from "boxicons";
 export default function Navbar() {
 
     return (
-        <nav className="ml-16 mr-16 flex justify-between items-center">
-          <div className='flex justify-between items-center w-28 mt-10'>
-            <img src={limeLogo} alt="black lp logo" className="h-12" />
-            <h1 className='text-xl mt-2 spaceG font-medium grey-medium'>STUDIO</h1>
-          </div>  
-          <Dropdown>
-            <Dropdown.Toggle variant="" id="dropdown">
-            <img src={menuIcon} alt="three horizontal lines" className="h-3 items-center mt-12  " />
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu id="dropdown-menu">
-              <Dropdown.Item href="#/action-1" id="dropdown-item">Home</Dropdown.Item>
-              <Dropdown.Item href="#/action-1" id="dropdown-item">Skills</Dropdown.Item>
-              <Dropdown.Item href="#/action-2" id="dropdown-item">About</Dropdown.Item>
-              <Dropdown.Item href="#/action-3" id="dropdown-item">Portfoilio</Dropdown.Item>
-              <Dropdown.Item href="#/action-3" id="dropdown-item">Contact</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+      <div>
+        <nav className="mt-16 mr-20 ml-16 flex justify-between">
+          <img src={logo} alt="my personal logo" className="h-16"/>
+          <div className="flex justify-between" id="nav-links">
+            <a href="#Home" className="pr-6 no-underline">HOME</a>
+            <a href="#About" className="pr-6 no-underline">ABOUT</a>
+            <a href="#Works" className="pr-6 no-underline">WORKS</a>
+            <a href="#Contact" className="pr-6 no-underline">CONTACT</a>
+          </div>
         </nav>
+      </div>
     )
 }
