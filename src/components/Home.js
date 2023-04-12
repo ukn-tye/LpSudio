@@ -8,7 +8,7 @@ import linkedIn from '../imgs/linkedin.png';
 const Home = () => {
     return (
             <div id="Home">
-            <div className="flex justify between ">
+            <div className="flex justify between">
                 <div className="ml-44 mt-36" id="spot-1">
                      <h1 className="poppins">creative designer</h1>
                     <h1 className="mb-2 poppins">& developer</h1>

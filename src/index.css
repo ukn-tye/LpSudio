@@ -30,7 +30,7 @@
 }
 
 .bg-color-main {
-  background-color: #191919;
+  background-color: var(--dark-main);
 }
 
 .grey-medium {
@@ -80,10 +80,10 @@
 }
 
 .wheel {
-  animation: scroll 2s ease infinite;
+  animation: MoveUpDown 2s ease infinite;
 }
 
-@keyframes scroll {
+@keyframes MoveUpDown {
   0% {
     transform: translateY(0);
   }
@@ -93,7 +93,7 @@
 }
 
 .arrow {
-  animation: scroll 2s ease infinite;
+  animation: MoveUpDown 2s ease infinite;
 }
 
 #scroll-arrow {
@@ -117,4 +117,70 @@
 }
 @keyframes spin {
   100%{-webkit-transform: rotate(360deg);}
+}
+
+.me {
+  height: 30rem;
+}
+ 
+.slider {
+  margin-right: 6rem;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.big {
+  font-size: 2.7rem;
+}
+
+.p-msg {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 10rem;
+}
+
+.p-msg2 {
+  position: absolute;
+  height: 17rem;
+  left: 355px;
+  top: 8rem;
+}
+
+.project-border {
+  border: 2px solid #363636;
+  padding: 37px;
+}
+
+.project-border p:hover #white{
+
+}
+
+.project-border:hover {
+  color: white;
+  background: #363636;
+  transition: ease all .4s;
+}
+
+.shapes {
+  animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-.5rem);
+  }
+  50% {
+    transform: translateY(.5rem);
+  }
+  100% {
+    transform: translateY(-.5rem);
+  }
+  
+}
+
+#white {
+  color:white;
 }
