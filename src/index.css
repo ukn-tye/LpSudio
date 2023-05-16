@@ -9,20 +9,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap');
 
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --dark-main: #363636;
-  --light-main: #f9f9f9;
+  --dark-main: #141414;
+  --light-main: #f1f1f1;
   --white: #fff;
 }
 
 .hero-image {
   background-image: url("./imgs/backimg-01.png"); /* The image used */
-  height: 800px; /* You must set a specified height */
+  height: 50rem; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -34,7 +36,7 @@
 }
 
 .grey-medium {
-  color: #fff;
+  color: #f1f1f1;
 }
 
 .poppins {
@@ -150,22 +152,23 @@ h2 {
 }
 
 .project-border {
-  border: 2px solid #363636;
+  border: 2px solid #141414;
   padding: 37px;
 }
 
-.project-border p:hover #white{
-
+.center {
+  margin-left: 33.5%;
 }
+
 
 .project-border:hover {
   color: white;
-  background: #363636;
+  background: #141414;
   transition: ease all .4s;
 }
 
 .shapes {
-  animation: bounce 2s ease infinite;
+  animation: bounce 6s ease infinite;
 }
 
 @keyframes bounce {
@@ -183,4 +186,112 @@ h2 {
 
 #white {
   color:white;
+}
+
+#mine {
+  position: relative;
+  bottom: 4rem;
+  left: 34%;
+}
+
+.contact {
+  width: 10rem;
+}
+
+.cIllustration {
+  height: 11rem;
+
+}
+
+
+/* button styles*/
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #f2f2f2;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+button.learn-more .circle .icon.point {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.point::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #141414;
+  border-right: 0.125rem solid #141414;
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #f2f2f2;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #141414  ;
+}
+/*end of button styels*/
+
+.contact-links {
+  width: 23rem;
 }

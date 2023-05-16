@@ -6,7 +6,7 @@ import peach from '../imgs/peach logo.png';
 
 const Works = () => {
     return (
-        <div className='mt-64'>
+        <div className='mt-64 mb-60'>
             <div className="project-border mr-16 ml-16 poppins rounded-xl flex justify-between mb-4">
                 <h3 className='items-center'>VINYL</h3>
                 <div className='flex mr-16  items-center'>
@@ -39,7 +39,7 @@ const Works = () => {
                 </div>
             </div>
 
-            <div className="project-border mr-16 ml-16 poppins rounded-xl flex justify-between ">
+            <div className="project-border mr-16 ml-16 poppins bg-color-main rounded-xl flex justify-between " id='white'>
                 <h3 className='items-center'>SOCIALS</h3>
                 <div className='flex mr-16  items-center'>
                     <p className='pr-16' id='white'>my social apps and business accounts</p>
