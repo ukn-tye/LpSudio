@@ -4,6 +4,7 @@ import spinWheel from '../imgs/spin-wheel.png';
 import google from '../imgs/google.png';
 import github from '../imgs/github.png';
 import linkedIn from '../imgs/linkedin.png';
+import resume from '../imgs/Lucas-Polk.jpg';
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
                     data-aos="fade-up"
                     data-aos-delay='400'
                     data-aos-duration='1000'>Hi im Lucas, a hardworking and passionate UX/UI Designer and Front-Developer based in Dallas Texas, ready to create, and deploy.</p>
-                    <a href="#s" className="no-underline p-2 rounded-3xl flex justify-around items-center border-1"
+                    <a href={resume} Download="Resume" className="no-underline p-2 rounded-3xl flex justify-around items-center border-1"
                     data-aos="fade-up"
                     data-aos-delay="600"
                     data-aos-duration="1000">
@@ -35,17 +36,20 @@ const Home = () => {
                     </a>
                     <div className="flex justify-between mt-12 w-48">
                         <a 
-                        href='#d'
+                        href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBmznLKrtvkqSbJrMdkBnVLHqCccPkJdvKMtKpbHScrDHHplbMXdDhFRxpcjBqvFkTzGTdG'
+                        target="_blank"
                         data-aos="fade-up"
                         data-aos-delay="800"
                         data-aos-duration="900"><img src={google} alt="the google logo" className="p-1 h-10"/></a>
                         <a 
-                        href='#d'
+                        href="https://github.com/ukn-tye" 
+                        target="_blank"
                         data-aos="fade-up"
                         data-aos-delay="1000"
                         data-aos-duration="900"><img src={github} alt="the github logo" className="p-1 h-10"/></a>
                         <a 
-                        href='#d'
+                        href="https://www.linkedin.com/in/lucas-polk-40b309235/" 
+                        target="_blank"
                         data-aos="fade-up"
                         data-aos-delay="1200"
                         data-aos-duration="900"><img src={linkedIn} alt="the linked in logo" className="p-1 h-10"/></a>

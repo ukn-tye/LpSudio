@@ -1,6 +1,5 @@
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Slider from './components/Slider';
 import About from './components/About';
 import Works from './components/Works';
 import Skills from './components/Skills';
@@ -48,7 +47,6 @@ function App() {
         <Navbar />
         <Home />
       </div>
-      <Slider />
       <About />
       <div className="p-msg">
         <img src={portfolio} alt="text that say Portfolio"/>
