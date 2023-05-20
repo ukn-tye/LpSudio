@@ -292,3 +292,36 @@ button:hover .button-text {
 .contact-links {
   width: 23rem;
 }
+
+/* all media quries*/
+@media screen and (min-width: 1024px) {
+  #spin {
+    position: relative;
+    height: 24rem;
+    left: 8.5rem;
+    top: 6px; 
+  }
+
+  #scroll-arrow {
+    position: relative;
+    left: 30rem;
+  }
+
+  .p-msg2 {
+    position: absolute;
+    height: 17rem;
+    left: 38rem;
+    top: 8rem;
+  }
+
+  #mine {
+    position: relative;
+    bottom: 4rem;
+    left: 37%;
+  }
+
+  .center {
+    margin-left: 37.5%;
+  }
+
+}
