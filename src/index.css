@@ -294,7 +294,7 @@ button:hover .button-text {
 }
 
 /* all media quries*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1920px) {
   #spin {
     position: relative;
     height: 24rem;
