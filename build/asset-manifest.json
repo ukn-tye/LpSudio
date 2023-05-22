@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.3f8e28a4.css",
-    "main.js": "/static/js/main.055848f4.js",
+    "main.js": "/static/js/main.eb2e3c95.js",
     "static/js/787.55acfb4c.chunk.js": "/static/js/787.55acfb4c.chunk.js",
     "static/media/aboutMe.png": "/static/media/aboutMe.ec308415d42168480f59.png",
     "static/media/backimg-01.png": "/static/media/backimg-01.675130bc3ee0624d1d78.png",
     "static/media/contactRight.png": "/static/media/contactRight.1a7ef016b3bff7ff4d9c.png",
     "static/media/contactLeft.png": "/static/media/contactLeft.0ceee3d3f830721f9d7c.png",
-    "static/media/Lucas-Polk.jpg": "/static/media/Lucas-Polk.9900673862c1d1d72d47.jpg",
     "static/media/myWorks.png": "/static/media/myWorks.d997098ddfa55c14022d.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.5d16d7c0269190a60f1c.png",
     "static/media/spin-wheel.png": "/static/media/spin-wheel.0761cf4f5e7d3dccc32b.png",
+    "static/media/Lucas-Polk.pdf": "/static/media/Lucas-Polk.b5783fa137c49a5b63c9.pdf",
     "static/media/myskills.png": "/static/media/myskills.e425266df546a5e369a9.png",
     "static/media/cTriangle.png": "/static/media/cTriangle.213395dcfbbd82e3f3d9.png",
     "static/media/cCircle.png": "/static/media/cCircle.cae049c6b6a93092400e.png",
@@ -18,11 +18,11 @@
     "static/media/google.png": "/static/media/google.36ebf61961a3fc2ce03f.png",
     "index.html": "/index.html",
     "main.3f8e28a4.css.map": "/static/css/main.3f8e28a4.css.map",
-    "main.055848f4.js.map": "/static/js/main.055848f4.js.map",
+    "main.eb2e3c95.js.map": "/static/js/main.eb2e3c95.js.map",
     "787.55acfb4c.chunk.js.map": "/static/js/787.55acfb4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f8e28a4.css",
-    "static/js/main.055848f4.js"
+    "static/js/main.eb2e3c95.js"
   ]
 }

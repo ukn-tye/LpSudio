@@ -4,7 +4,7 @@ import spinWheel from '../imgs/spin-wheel.png';
 import google from '../imgs/google.png';
 import github from '../imgs/github.png';
 import linkedIn from '../imgs/linkedin.png';
-import resume from '../imgs/Lucas-Polk.jpg';
+import resume from '../imgs/Lucas-Polk.pdf';
 
 
 const Home = () => {
