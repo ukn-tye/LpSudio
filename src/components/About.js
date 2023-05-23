@@ -14,7 +14,7 @@ const About = () => {
                 className='big mb-4'
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="200">my names lucas</h2>
+                data-aos-delay="200">my name is lucas</h2>
                 <p 
                 className="w-full spaceG mb-10"
                 data-aos="fade-up"
